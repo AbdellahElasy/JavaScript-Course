@@ -26,3 +26,13 @@ week 2:
 . &&   AND Operator 
 . ||   OR  Operator
 . !    NOT Operator
+----------------------------------------------------
+           --Functions--
+           -------------
+           Rules for function names:
+           1-can't use spacial words.
+             Example: function
+           2-can't start with a number
+           3-can't use special characters
+             Except: $ _
+  
