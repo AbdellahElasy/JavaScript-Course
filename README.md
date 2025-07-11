@@ -35,4 +35,19 @@ week 2:
            2-can't start with a number
            3-can't use special characters
              Except: $ _
+week3:
+------
+                     --Objects--
+                     ------------
+                     -Function inside object = Method
+      2 More Built-in Objects:
+      *JSON => JavaScript Object Notation.
+           -We use JSON: - When we send data between computers.
+                    - when we store data
+           - to Convert:
+                   . JavaScript Object ==> JSON :  JSON.stringify();
+                   . JSON ==> JavaScript Object :  JSON.parse();
+      *localStorage:
+                    -localStorage.setItem();
+                    -localStorage.getItem();
   
