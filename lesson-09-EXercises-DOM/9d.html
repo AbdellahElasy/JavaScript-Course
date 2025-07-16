@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9d</title>
+</head>
+<body>
+  <!--
+  9d.Create a text box (<input>) and a submit button.
+  When clicking 'Submit', display 'Your name is : ${text} on the page (${text} = the text inside the text box)(hint:use .value to get the text inside an <input>). 
+  -->
+  
+<input placeholder="Name" class="js-input">
+
+
+
+<button onclick="
+const inputElement = document.querySelector('.js-input');
+document.querySelector('.js-message').innerHTML = `Your name is: ${inputElement.value}`;
+
+" class="js-submit">Submit</button>
+<p class="js-message"></p>
+
+
+
+</body>
+</html>
