@@ -4,6 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dom</title>
+  <style>
+    .Subscribe-button{
+      border: none;
+      background-color: black;
+      color: white;
+     padding: 10px 15px;
+     font-weight: bold;
+     border-radius: 50px;
+     cursor: pointer;
+      
+    }
+    .is-subscribed{
+      background-color: gray;
+      color: black;
+     }
+  </style>
 </head>
 <body>
   <!-- Subscribe button-->
@@ -11,10 +27,14 @@
 <button onclick="
 Subscribe();
 
-" class="js-sub-button">Subscribe</button>
+" class="js-sub-button Subscribe-button">Subscribe</button>
+
+
+
 
 <p>Amazon Shipping Calculator</p>
 <input placeholder="Cost of order" class="js-cost-input">
+
 <button onclick="
 CalculateTotal();
 ">Calculate</button>
@@ -36,44 +56,15 @@ CalculateTotal();
 
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  function Subscribe(){
 const buttonElemnt =document.querySelector('.js-sub-button');
     if(buttonElemnt.innerHTML === 'Subscribe'){
       
       buttonElemnt.innerHTML = 'Subscribed';
+      buttonElemnt.classList.add('is-subscribed');
     }else{
       buttonElemnt.innerHTML = 'Subscribe';
+      buttonElemnt.classList.remove('is-subscribed');
     }
  }
 
