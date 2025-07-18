@@ -50,4 +50,18 @@ week3:
       *localStorage:
                     -localStorage.setItem();
                     -localStorage.getItem();
+
+
+Week4:
+                 Arrays and Loops : 
+                -------------------
+                Arrays
+                -another type of value.
+                -represents a list of values.
+        *Looping Through an Array:
+        1.Go through each value of an array one by one
+        2.Do something with each value.
+              
+
+    
   
