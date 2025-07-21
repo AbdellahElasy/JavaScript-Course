@@ -1,4 +1,8 @@
 const toDoList = ['make dinner ' , ' wash dishes'];
+
+renderTodoList();
+
+
 function renderTodoList(){
 
 let toDoListHtml = ' ';
@@ -21,7 +25,6 @@ document.querySelector('.js-todo-list')
 function addTodo(){
 const Element1 = document.querySelector('.js-name-input');
 const name  =   Element1.value;
-
 toDoList.push(name);
 console.log(toDoList);
 Element1.value = '';
