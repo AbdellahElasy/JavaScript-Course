@@ -2,22 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/todo-list-project/11-todo.css">
   <title>todo List</title>
 </head>
 <body>
 
 <p>Todo List Practice</p>
-<input placeholder="Todo name" class="js-name-input">
+<div class="todo-input-grid">
+  <input placeholder="Todo name" class="js-name-input name-input">
+  <input type="date" s class="js-due-date-input due-date-input">
 
 
-<button onclick="
-addTodo();
-">Add</button>
-<div class="js-todo-list"></div>
+  <button onclick="
+  addTodo();
+" class="add-todo-button">Add</button>
 
 
+</div>
 
-  <script src="/todo-list-project/11-todo-list.js"></script>
+<div class="js-todo-list todo-grid"></div>
+<script src="/todo-list-project/11-todo-list.js"></script>
 </body>
 </html>
