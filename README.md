@@ -61,6 +61,20 @@ Week4:
         *Looping Through an Array:
         1.Go through each value of an array one by one
         2.Do something with each value.
+
+Week4:
+             Advanced Functions:
+             ~~~~~~~~~~~~~~~~~~~~
+    - .addEventListener()
+2 more array methods:
+ .filter() and .map()
+
+
+             Main idea of JavaScript
+             =======================
+             1.Save the data
+             2.Generate the HTML
+             3.Make it interactive
               
 
     
