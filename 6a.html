@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    /*
+  let hour = 9;
+  const name = 'abde'
+  if(hour >= 6 && hour <= 12 ){
+    console.log(`Good morning ${name}`);
+  }else if(hour >= 13 && hour <= 17 ){
+ console.log(`Good afternon ${name}`)
+  }else{
+    console.log(`Good naight ${name}`);
+  }
+    */
+   /*
+   const age = 5;
+   const isHoliday = true;
+   if((age <= 6 || age >= 65) && !isHoliday){
+    console.log('Discount');
+   }else{
+    console.log('No discount');
+   }
+    */
+   const number = Math.random();
+   let result = '';
+   let guess = 'heads';
+   if(number <= 0.5 ){
+    result ='heads';
+   }else{
+   result ='tails';
+   }
+   if(guess === result){
+    console.log('You win');
+   }else{
+    console.log('YOU lose');
+   }
+   /*
+   function getLastValue(array){
+ const lastIndex = array.length -1;
+ return array[lastIndex];
+
+}
+console.log(getLastValue([13, 12,2,43]));
+
+*/
+/*
+function arraySwap(array){
+  const lastIndex = array.length -1;
+
+  const lastValue = array[lastIndex];
+ const fristValue = array[0];
+array[0]=lastValue;
+ array[lastIndex] = fristValue;
+  
+ 
+  return array;
+}
+console.log(arraySwap(['he' , 12 , 4 ,'hello']));
+
+*/
+for (let i = 0; i <= 5 ; i--){
+    console.log(`counts  : ${i}`);
+}
+
+  for (let i = 0; i <= 10; i += 2) {
+        console.log(i);
+      }
+
+  
+  </script>
+</body>
+</html>
