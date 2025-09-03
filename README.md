@@ -68,6 +68,9 @@ Week4:
     - .addEventListener()
 2 more array methods:
  .filter() and .map()
+         -setTimeout()
+         -setInterval(): it will keep runing a     function in the future.
+         -forEach()
 
 
              Main idea of JavaScript

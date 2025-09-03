@@ -17,19 +17,19 @@ renderTodoList();
 
 function renderTodoList(){
 let todoListHtml = '';
-for(let i = 0; i < todoList.length ; i++){
-  const todoObject = todoList[i];
+todoList.forEach(function(todoObject, index){
   const {name , dueDate} = todoObject;
   const html = `
  <div>${name}</div>
  <div>${dueDate}</div>   
  <button onclik="
-    todoList.splice(${i}, 1);
+    todoList.splice(${index}, 1);
     renderTodoList();
-  "class="delete-todo-button">Delete</button>
+  " class="delete-todo-button">Delete</button>
   `;
   todoListHtml += html;
-}
+});
+
 document.querySelector('.js-todo-list')
 .innerHTML = todoListHtml;
 }
