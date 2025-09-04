@@ -6,7 +6,9 @@
   <title>Advanced Functions</title>
 </head>
 <body>
-  <button onclick="" class="js-button">click</button>
+<button class="js-button" onclick="
+  
+  ">Click</button>
 
     
 
@@ -14,14 +16,29 @@
 
 
 
-
-
-
-
-
-
-
   <script>
+  const buttonElement=  document.querySelector('js.button');
+  buttonElement.addEventListener('click',() => {
+    console.log('click'); 
+  });
+/*
+  function updateMessage(){
+
+const buttonElemen = document.querySelector('.js-message-below');
+buttonElemen.innerHTML = 'Added';
+ setTimeout(function(){
+  buttonElemen.innerHTML = '';
+
+ } , 2000);
+
+
+
+  }
+
+*/
+
+
+
     /*
        const buttonElement = document.querySelector('.js-button');
 
@@ -60,6 +77,23 @@ function display(param ){
 }
 display(4);
 */
+ const add = function() {
+        console.log(2 + 3);
+      };
+
+      add();
+      add();
+
+      function runTwice(fun) {
+        fun();
+        fun();
+      }
+
+      runTwice(function() {
+        console.log('12b');
+      });
+      
+      runTwice(add);
 
   </script>
 </body>
