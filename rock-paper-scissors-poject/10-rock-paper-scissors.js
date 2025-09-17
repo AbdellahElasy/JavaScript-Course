@@ -15,7 +15,7 @@ UpdateScoreElement();
 let intervalId;
 function autoPlay(){
       if(!isAutoPlaying){
-      intervalId =  setInterval(function(){
+      intervalId =  setInterval(()=>{
       const playerMove = pickComputerMove();
       playGame(playerMove);
       }, 1000);
@@ -27,6 +27,7 @@ function autoPlay(){
       isAutoPlaying = false;
       };
 };
+
       document.querySelector('.js-rock-button')
       .addEventListener('click' , () =>{
         playGame('rock');
