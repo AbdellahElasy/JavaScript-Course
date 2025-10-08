@@ -78,6 +78,15 @@ Week4:
              1.Save the data
              2.Generate the HTML
              3.Make it interactive
+Week5:
+           1.Object-Oriented Programming (OOP)
+             = organize our code into objects
+           2.Use function to generate objects
+           3.Classes
+           4.Private properties and methods
+           5.Inheritance
+           6.Method Overriding & Polymorphism
+           7.More details about "this"
               
 
     
